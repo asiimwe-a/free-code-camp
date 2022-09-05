@@ -35,3 +35,9 @@ header {
     margin-left: 200px;
     padding: 5px;
 }
+
+@media (max-width: 500px) {
+    body {
+        color: blue;
+    }
+}
