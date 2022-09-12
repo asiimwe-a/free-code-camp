@@ -9,11 +9,40 @@ body {
     text-align: center;
     font-family: 'Abril Fatface', cursive;
     background-color: #F3F9FB;
+    color: #40514E;
 }
 
 h1 {
     margin-top: 0;
     font-size: 2rem;
+    color: #113F67;
+}
+
+.logo {
+    color: #44a4f8;
+    margin-left: 30px;
+}
+
+p {
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #113F67;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #113F67;
+    padding-bottom: 10px;
+}
+
+hr {
+    border: dotted #44a4f8 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
 }
 
 #first, #last {
@@ -22,7 +51,7 @@ h1 {
 
 .nav-bar {
     position: fixed;
-    background-color: #87C0CD;
+    background-color: #113F67;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,22 +89,6 @@ footer {
     padding-top: 100px;
 }
 
-#first {
-    position: absolute;
-    right: 300px;
-    top: 50px;
-    width: 20%;
-    height: 20%;
-}
-
-#last {
-    position: absolute;
-    left: 300px;
-    bottom: 350px;
-    width: 20%;
-    height: 20%;
-}
-
 .profile-picture {
     width: 25%;
 }
@@ -102,3 +115,50 @@ footer {
     float: right;
     margin-left: 30px;
 }
+
+.contact-me {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .bottom-container {
+    background-color: #113F67;
+    color: hsl(182, 94%, 87%);
+  }
+
+  a {
+    color: hsl(182, 94%, 87%);
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  a:hover {
+    color: #44a4f8;
+  }
